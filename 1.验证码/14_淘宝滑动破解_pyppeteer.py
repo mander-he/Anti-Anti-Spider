@@ -63,7 +63,6 @@ async def main(username, pwd, url):# 定义main协程函数，
                 print('确保账户安全重新入输入')
                 # 程序退出。
                 loop.close()
-              else:
                 print(page.url)
                 await get_cookie(page)
     #time.sleep(100)
